@@ -94,7 +94,7 @@ This module aggregates gridded fire data to counties and generates continuous ti
   * **Execution:** `job_identify_fire_events_acf.sh`
 
 #### 5. Outage Attribution 
-This final module synthesizes the processed hazard data with historical power grid outage records to determine the specific meteorological drivers behind power failures.
+This final module synthesizes the processed hazard data with outage events to determine the specific meteorological drivers behind power failures.
 
 * `outage_attribution.py`
   * **Description:** Attributes power outage events to specific extreme weather events by evaluating their spatial and temporal overlaps across U.S. counties.
