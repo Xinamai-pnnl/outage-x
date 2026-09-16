@@ -11,6 +11,9 @@ Ning Sun<sup>1</sup>, Tse-Chun Chen<sup>1</sup>, Lili Yao<sup>1</sup>, Zhangshua
 
 ---
 
+## Abstract
+Severe weather is the leading reported cause of major power outages in the United States. However, publicly available outage records are too short and fragmented to support long-term risk characterization and weather impact assessments. Here, we present OUTAGE-X, a county-scale dataset of weather-driven customer outages for 3038 counties (or 98%) across the contiguous United States. For each county and hour, OUTAGE-X provides the maximum number of customers without power over the following 12 hours, reconstructed for 1980–2024 using machine learning models trained on EAGLE-I county outage records (2014–2023) from dynamic meteorological conditions and static local characteristics. The dataset also includes hourly predictions of customer outages under eight thermodynamic perturbation scenarios. In addition, OUTAGE-X includes a county-scale library of historical individual and compound extreme weather events and a paired outage–hazard dataset linking reported outages to concurrent weather hazards. Together, these data support comprehensive analyses of spatiotemporal outage patterns and grid sensitivity to changing weather conditions.
+
 ## Reproduce Our Data
 
 This repository contains the source code used to generate the datasets and reproduce the models presented in the paper. The code is divided into two main components:
